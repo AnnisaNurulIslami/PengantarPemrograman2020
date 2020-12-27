@@ -13,7 +13,7 @@ public class Soal02 {
             int menit = (nilaiDetik % 3600)  / 60;
             int detik = nilaiDetik % 60;
     
-            System.out.printf("%02d : %2d : %2d", jam, menit, detik);
+            System.out.printf("%02d : %02d : %02d", jam, menit, detik);
         }
         waktu.close();
     }
